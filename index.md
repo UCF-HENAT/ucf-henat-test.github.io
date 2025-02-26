@@ -44,6 +44,11 @@ title: "HENAT Lab"
   <p>Introduction to the HENAT Lab, its mission, members, and ongoing projects.</p>
 </div>
 
+<!-- Footer Section -->
+<footer>
+  <p>© 2025 <a href="https://yourwebsite.com" target="_blank">Mengjie Li</a>. All rights reserved.</p>
+</footer>
+
 <!-- JavaScript for Tab Switching -->
 <script>
   function openTab(evt, tabName) {
@@ -61,7 +66,7 @@ title: "HENAT Lab"
   }
 </script>
 
-<!-- CSS for Styling (No Background, Centered Tabs) -->
+<!-- CSS for Styling (No Background, Centered Tabs, Footer Styling) -->
 <style>
   .tab {
     overflow: hidden;
@@ -91,5 +96,21 @@ title: "HENAT Lab"
     display: none;
     padding: 20px;
     text-align: left;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #555;
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+  }
+  footer a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  footer a:hover {
+    text-decoration: underline;
   }
 </style>
