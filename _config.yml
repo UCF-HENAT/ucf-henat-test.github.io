@@ -1,23 +1,8 @@
 # Site settings
 title: "HENAT Lab"
 description: "Research in Network Analysis and Technology"
-baseurl: "" # Leave empty for root deployment
-url: "https://ucf-henat.github.io" # Replace with your site's URL
-
-# Navigation
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "Research"
-    url: "/research/"
-  - title: "Publications"
-    url: "/publications/"
-  - title: "Teaching"
-    url: "/teaching/"
-  - title: "Prospective Students"
-    url: "/prospective-students/"
-  - title: "HENAT Lab"
-    url: "/henat-lab/"
+baseurl: ""  # Leave blank for GitHub Pages
+url: "https://ucf-henat.github.io"  # Your website URL
 
 # Author information
 author:
@@ -27,14 +12,14 @@ author:
     - "Department of XYZ, University of ABC"
     - "Another Affiliation or Research Group"
 
-# Social media links
+# Social media links (optional)
 social:
   google_scholar: "https://scholar.google.com/citations?user=your_id"
   researchgate: "https://www.researchgate.net/profile/Your_Name"
   twitter: "https://twitter.com/your_twitter_handle"
   linkedin: "https://www.linkedin.com/in/your_profile"
 
-# Plugins
+# Jekyll plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -43,15 +28,12 @@ plugins:
 markdown: kramdown
 highlighter: rouge
 
-# Theme
-theme: minima # You can choose another theme if preferred
+# Theme settings
+theme: minima  # Change if using another theme
 
-# Exclude from processing
+# Exclude files from Jekyll processing
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/bundle
-  - vendor/cache
-  - vendor/gems
-  - vendor/ruby
+  - vendor/
