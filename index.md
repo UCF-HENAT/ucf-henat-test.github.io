@@ -3,42 +3,45 @@ layout: default
 title: "HENAT Lab"
 ---
 
-# HENAT Lab
-
-<!-- Tab Navigation -->
+<!-- Tab Navigation (No Background) -->
 <div class="tab">
-  <button class="tablinks active" onclick="openTab(event, 'Research')">Research</button>
-  <button class="tablinks" onclick="openTab(event, 'Publications')">Publications</button>
+  <button class="tablinks active" onclick="openTab(event, 'MengjieLi')">Mengjie Li</button>
+  <button class="tablinks" onclick="openTab(event, 'Research')">Research</button>
+  <button class="tablinks" onclick="openTab(event, 'Publication')">Publication</button>
   <button class="tablinks" onclick="openTab(event, 'Teaching')">Teaching</button>
   <button class="tablinks" onclick="openTab(event, 'ProspectiveStudents')">Prospective Students</button>
-  <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+  <button class="tablinks" onclick="openTab(event, 'HENATLab')">HENAT Lab</button>
 </div>
 
 <!-- Tab Content Sections -->
-<div id="Research" class="tabcontent" style="display:block;">
+<div id="MengjieLi" class="tabcontent" style="display:block;">
+  <h2>Mengjie Li</h2>
+  <p>Brief introduction about Mengjie Li, academic background, and research interests.</p>
+</div>
+
+<div id="Research" class="tabcontent">
   <h2>Research</h2>
   <p>Describe your research interests, projects, and innovations.</p>
 </div>
 
-<div id="Publications" class="tabcontent">
-  <h2>Publications</h2>
-  <p>List your key publications with links to full papers.</p>
+<div id="Publication" class="tabcontent">
+  <h2>Publication</h2>
+  <p>List of key publications with links to full papers.</p>
 </div>
 
 <div id="Teaching" class="tabcontent">
   <h2>Teaching</h2>
-  <p>Details about courses you teach and materials you provide.</p>
+  <p>Details about the courses you teach and educational contributions.</p>
 </div>
 
 <div id="ProspectiveStudents" class="tabcontent">
   <h2>Prospective Students</h2>
-  <p>Information for students interested in joining the HENAT Lab.</p>
+  <p>Information for students interested in joining HENAT Lab.</p>
 </div>
 
-<div id="Contact" class="tabcontent">
-  <h2>Contact</h2>
-  <p>Email: your-email@domain.com</p>
-  <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">Your Profile</a></p>
+<div id="HENATLab" class="tabcontent">
+  <h2>HENAT Lab</h2>
+  <p>Introduction to the HENAT Lab, its mission, members, and ongoing projects.</p>
 </div>
 
 <!-- JavaScript for Tab Switching -->
@@ -58,34 +61,35 @@ title: "HENAT Lab"
   }
 </script>
 
-<!-- CSS for Styling -->
+<!-- CSS for Styling (No Background, Centered Tabs) -->
 <style>
   .tab {
     overflow: hidden;
-    border-bottom: 2px solid #ddd;
-    background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+    border-bottom: 2px solid #ddd;
+    padding: 10px 0;
   }
   .tab button {
-    background-color: inherit;
+    background-color: transparent;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
     transition: 0.3s;
-    font-size: 16px;
   }
   .tab button:hover {
-    background-color: #ddd;
+    text-decoration: underline;
   }
   .tab button.active {
-    background-color: #ccc;
-    font-weight: bold;
+    border-bottom: 3px solid #000;
   }
   .tabcontent {
     display: none;
     padding: 20px;
-    border-top: none;
+    text-align: left;
   }
 </style>
