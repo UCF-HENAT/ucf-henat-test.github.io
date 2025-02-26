@@ -3,7 +3,7 @@ layout: default
 title: "HENAT Lab"
 ---
 
-<h1>HENAT Lab</h1>
+# HENAT Lab
 
 <!-- Tab Navigation -->
 <div class="tab">
@@ -89,4 +89,3 @@ title: "HENAT Lab"
     border-top: none;
   }
 </style>
-
