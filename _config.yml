@@ -13,10 +13,8 @@ nav:
     url: "/publications/"
   - title: "Teaching"
     url: "/teaching/"
-  - title: "Perspective"
-    url: "/perspective/"
-  - title: "Students"
-    url: "/students/"
+  - title: "Perspective Student"
+    url: "/perspective-student/"
   - title: "HENAT Lab"
     url: "/henat-lab/"
 
