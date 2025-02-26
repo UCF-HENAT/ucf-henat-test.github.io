@@ -1,9 +1,10 @@
+# Site settings
 title: "HENAT Lab"
-description: "Health Energy Nexus Advancement Technology"
-baseurl: ""  # Leave blank for GitHub Pages
-url: "https://ucf-henat.github.io"  # Your GitHub Pages URL
+description: "Research in Network Analysis and Technology"
+baseurl: "" # Leave empty for root deployment
+url: "https://ucf-henat.github.io" # Replace with your site's URL
 
-# Navigation menu
+# Navigation
 nav:
   - title: "Home"
     url: "/"
@@ -13,26 +14,44 @@ nav:
     url: "/publications/"
   - title: "Teaching"
     url: "/teaching/"
-  - title: "Perspective Student"
-    url: "/perspective-student/"
+  - title: "Prospective Students"
+    url: "/prospective-students/"
   - title: "HENAT Lab"
     url: "/henat-lab/"
 
-# Theme settings (if using Jekyll Minimal Mistakes or similar)
-theme: jekyll-theme-minimal  # Change this based on your chosen Jekyll theme
+# Author information
+author:
+  name: "Your Name"
+  email: "your-email@domain.com"
+  affiliations:
+    - "Department of XYZ, University of ABC"
+    - "Another Affiliation or Research Group"
+
+# Social media links
+social:
+  google_scholar: "https://scholar.google.com/citations?user=your_id"
+  researchgate: "https://www.researchgate.net/profile/Your_Name"
+  twitter: "https://twitter.com/your_twitter_handle"
+  linkedin: "https://www.linkedin.com/in/your_profile"
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
 # Markdown settings
 markdown: kramdown
-permalink: pretty
+highlighter: rouge
 
-# Social links (optional)
-social:
-  github: "https://github.com/ucf-henat"
-  twitter: "https://twitter.com/yourlab"
-  linkedin: "https://www.linkedin.com/in/yourprofile"
+# Theme
+theme: minima # You can choose another theme if preferred
 
-# Contact info (optional)
-email: "your-email@university.edu"
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
