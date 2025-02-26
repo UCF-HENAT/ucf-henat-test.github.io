@@ -1,0 +1,40 @@
+title: "HENAT Lab"
+description: "Research in Network Analysis and Technology"
+baseurl: ""  # Leave blank for GitHub Pages
+url: "https://ucf-henat.github.io"  # Your GitHub Pages URL
+
+# Navigation menu
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Research"
+    url: "/research/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Teaching"
+    url: "/teaching/"
+  - title: "Perspective"
+    url: "/perspective/"
+  - title: "Students"
+    url: "/students/"
+  - title: "HENAT Lab"
+    url: "/henat-lab/"
+
+# Theme settings (if using Jekyll Minimal Mistakes or similar)
+theme: jekyll-theme-minimal  # Change this based on your chosen Jekyll theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Markdown settings
+markdown: kramdown
+permalink: pretty
+
+# Social links (optional)
+social:
+  github: "https://github.com/ucf-henat"
+  twitter: "https://twitter.com/yourlab"
+  linkedin: "https://www.linkedin.com/in/yourprofile"
+
+# Contact info (optional)
+email: "your-email@university.edu"
